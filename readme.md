@@ -82,21 +82,22 @@
 * **소정현** (Back: 100%)
 
   * Back-End
-* Python 함수를 이용해 TMDB 데이터를 DB에 저장
+  * Python 함수를 이용해 TMDB 데이터를 DB에 저장
+  
   * 머신 러닝을 이용한 추천 프로그램 
-
-    * Content Based Recommendation
+  
+  * Content Based Recommendation
   * Collaborative Filtering
   * 기본 기능 구현
   
   * movies app 기본 기능 구현
-    * community app 기본 기능 구현
+  * community app 기본 기능 구현
   * accounts app 기본 기능 구현
   * 추가 기능 구현
   
-    * search 기능 구현
+  * search 기능 구현
   * profile 기능 구현
-    * 장르별 영화 필터 구현
+  * 장르별 영화 필터 구현
 
 
 
