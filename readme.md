@@ -1,6 +1,6 @@
 # FINAL-PJT
 
-
+* 시연 영상 url : https://www.youtube.com/watch?v=zdimkowqAas
 
 ## 프로젝트 컨셉
 
