@@ -43,7 +43,7 @@
             {{ comment.content}}
             <div @click="editComment(comment)" v-show="comment.user.username === currentUser.username" class="edit-btn"> <i class="fa-solid fa-pen-to-square"></i></div>
             <div @click="deleteComment(comment)" v-show="comment.user.username === currentUser.username" class="del-btn"> <i class="fa-solid fa-xmark"></i></div>
-            <div @click="moveToprofile(comment.user.username)" class="comment-user">
+            <div @click="fetchProfile(comment.user.username)" class="comment-user">
               {{ comment.user.username }}
             </div>
           </div>
@@ -88,7 +88,7 @@ export default {
     ...mapGetters(['articleDetail', 'isAuthor', 'currentUser', 'isLoggedIn', 'navState', 'commentList']),
   },
   methods :{
-    ...mapActions(['addComment', 'addLike', 'fetchProfile','fetchProfile', 'getDetail', 'navToggle','getCommentList', 'deleteComment','editComment']),
+    ...mapActions(['addComment', 'addLike','fetchProfile', 'getDetail', 'navToggle','getCommentList', 'deleteComment','editComment']),
     like() {
       this.addLike(this.id)
       this.isLiked()
